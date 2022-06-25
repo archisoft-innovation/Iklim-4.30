@@ -1,5 +1,5 @@
 # create the build instance 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 
 WORKDIR /src                                                                    
 COPY ./src ./
@@ -83,7 +83,7 @@ RUN chmod 775 wwwroot/images/thumbs
 RUN chmod 775 wwwroot/images/uploaded
 
 # create the runtime instance 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS runtime 
+# FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS runtime 
 
 # add globalization support
 RUN apk add --no-cache icu-libs
