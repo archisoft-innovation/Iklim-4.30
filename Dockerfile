@@ -4,6 +4,10 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src                                                                    
 COPY ./src ./
 
+
+EXPOSE 80
+EXPOSE 443
+
 # restore solution
 RUN dotnet restore NopCommerce.sln
 
@@ -99,3 +103,5 @@ RUN apk add tzdata --no-cache
 # COPY --from=build /app/published .
 
 # ENTRYPOINT "/entrypoint.sh"
+
+ENTRYPOINT ["dotnet", "Nop.Web.dll"]
