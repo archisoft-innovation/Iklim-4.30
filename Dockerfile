@@ -1,12 +1,8 @@
 # create the build instance 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
 WORKDIR /src                                                                    
 COPY ./src ./
-
-
-EXPOSE 80
-EXPOSE 443
 
 # restore solution
 RUN dotnet restore NopCommerce.sln
@@ -83,7 +79,7 @@ RUN chmod 775 wwwroot/images/thumbs
 RUN chmod 775 wwwroot/images/uploaded
 
 # create the runtime instance 
-# FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS runtime 
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS runtime 
 
 # add globalization support
 RUN apk add --no-cache icu-libs
@@ -95,13 +91,11 @@ RUN apk add libc-dev --no-cache
 RUN apk add tzdata --no-cache
 
 # copy entrypoint script
-# COPY ./entrypoint.sh /entrypoint.sh
-# RUN chmod 755 /entrypoint.sh
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod 755 /entrypoint.sh
 
-# WORKDIR /app
+WORKDIR /app
 
-# COPY --from=build /app/published .
+COPY --from=build /app/published .
 
-# ENTRYPOINT "/entrypoint.sh"
-
-ENTRYPOINT ["dotnet", "Nop.Web.dll"]
+ENTRYPOINT "/entrypoint.sh"
