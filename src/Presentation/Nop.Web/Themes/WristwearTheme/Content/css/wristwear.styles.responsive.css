@@ -24,7 +24,7 @@
         clear: both;
     }
     .sidebar .title {
-        background: url("../images/toggle-down-arrow.png") no-repeat #f10044 right center;
+        background: url("../images/toggle-down-arrow.png") no-repeat #C60091 right center;
         font-size: 16px;
         padding: 15px;
         cursor: pointer;
@@ -34,7 +34,7 @@
         -web-box-shadow: 0 -3px 5px #aaaaaa;
     }
         .sidebar .title.arrow-up-down {
-            background: url("../images/toggle-up-arrow.png") no-repeat #f10044 right center;
+            background: url("../images/toggle-up-arrow.png") no-repeat #C60091 right center;
         }
         .sidebar .box-shadow-wrapper:nth-child(odd){
             clear:both;
@@ -299,32 +299,32 @@
         text-align: center;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > ul {
-        border-top: 2px solid #0e1c29 !important;
-        border-bottom: 2px solid #0e1c29 !important;
+        border-top: 2px solid #222222 !important;
+        border-bottom: 2px solid #222222 !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > a {
         display: block;
         padding-left: 50px;
-        background: url(../images/submenu-deactive-icon.png) no-repeat 32px 14px #071018 !important;
+        background: url(../images/submenu-deactive-icon.png) no-repeat 32px 14px #1b1b1b !important;
         padding: 10px 55px 10px 50px;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > a {
         display: block;
         padding-left: 65px;
-        background: url(../images/submenu-deactive-icon.png) no-repeat 47px 14px #071018 !important;
+        background: url(../images/submenu-deactive-icon.png) no-repeat 47px 14px #1b1b1b !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > a {
         display: block;
         padding-left: 80px;
-        background: url(../images/submenu-deactive-icon.png) no-repeat 62px 14px #071018 !important;
+        background: url(../images/submenu-deactive-icon.png) no-repeat 62px 14px #1b1b1b !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li > a {
         display: block;
         padding-left: 95px;
-        background: url(../images/submenu-deactive-icon.png) no-repeat 77px 14px #071018 !important;
+        background: url(../images/submenu-deactive-icon.png) no-repeat 77px 14px #1b1b1b !important;
     }
     .header-menu, .main-menu.goToTop .navbar.navbar-inverse.category-menu {
-        background: #0e1c29;
+        background: white;
     }
     .navbar-inverse .navbar-toggle .icon-bar {
         background-color: #fff;
@@ -334,7 +334,8 @@
         visibility: visible;
     }
         .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li a {
-            background: url(../images/submenu-deactive-icon.png) no-repeat 20px 14px #071018 !important;
+            background: url(../images/submenu-deactive-icon.png) no-repeat 20px 14px 
+            !important;
         }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu {
         background: transparent;
@@ -840,7 +841,7 @@
         background: #f5f5f5;
     }
     .order-summary-content .product-wrapper .product a, .wishlist-content .product-wrapper .product a {
-        color: #f10044;
+        color: #C60091;
         font-weight: 700;
         display: block;
     }
@@ -908,7 +909,7 @@
     }
     #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button {
         padding: 10px 15px 10px 40px;
-        background: #f10044 url("../images/checkout-order-confrim.png") no-repeat scroll 20px center;
+        background: #C60091 url("../images/checkout-order-confrim.png") no-repeat scroll 20px center;
         float: right;
         width: 150px;
         font-size: 14px;
@@ -1126,7 +1127,8 @@
     }
     #mobile-menu .dropdown-menu > li > a:focus, #mobile-menu .dropdown-menu > li > a:hover {
         background-color: transparent;
-        color: #0e1c29;
+        color: 
+            ;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li a {
         padding-left: 38px;
@@ -1624,7 +1626,8 @@
         padding-bottom: 15px;
     }
         .footer-middle .title i, .footer-middle .contact-wrapper div i {
-            color: #f10044;
+            color: 
+                ;
             float: left;
             font-size: 15px;
             margin-right: 8px;
@@ -1672,17 +1675,17 @@
         padding: 10px 68px;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.active > a {
-        background: #0e1c29;
+        background: white;
         color: #fff;
         padding: 20px 22px;
-        border-top: 2px solid #f10044;
-        border-bottom: 2px solid #f10044;
-        color: #f10044;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        color: #C60091;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li > a:hover {
-        border-top: 2px solid #f10044;
-        border-bottom: 2px solid #f10044;
-        color: #f10044;
+        border-top: 2px solid #C60091;
+        border-bottom: 2px solid #C60091;
+        color: #C60091;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li.active a {
         color: #333;
@@ -1838,7 +1841,7 @@
             margin-bottom: 15px;
         }
     #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button {
-        background: #f10044 url("../images/checkout-order-confrim.png") no-repeat scroll 60px center;
+        background: #C60091 url("../images/checkout-order-confrim.png") no-repeat scroll 60px center;
         width: 280px;
     }
         #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button:hover {
@@ -1857,7 +1860,7 @@
         padding-bottom: 15px;
     }
         .footer-middle .title i, .footer-middle .contact-wrapper div i {
-            color: #f10044;
+            color: #C60091;
             float: left;
             font-size: 15px;
             margin-right: 8px;

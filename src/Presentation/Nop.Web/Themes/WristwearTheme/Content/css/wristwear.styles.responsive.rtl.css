@@ -15,7 +15,7 @@
         clear: both;
     }
     .sidebar .title {
-        background: url("../images/toggle-down-arrow.png") no-repeat #f10044 left center;
+        background: url("../images/toggle-down-arrow.png") no-repeat #C60091 left center;
         font-size: 16px;
         padding: 15px 15px 15px 50px;
         cursor: pointer;
@@ -25,7 +25,7 @@
         -web-box-shadow: 0 -3px 5px #aaaaaa;
     }
         .sidebar .title.arrow-up-down {
-            background: url("../images/toggle-up-arrow.png") no-repeat #f10044 left center;
+            background: url("../images/toggle-up-arrow.png") no-repeat #C60091 left center;
         }
         .sidebar .product-spec-group .title{
             background-image:none;
@@ -296,32 +296,33 @@
         text-align: center;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > ul {
-        border-top: 2px solid #0e1c29 !important;
-        border-bottom: 2px solid #0e1c29 !important;
+        border-top: 2px solid 
+            !important;
+        border-bottom: 2px solid #222222 !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > a {
         display: block;
         padding-left: 50px;
-        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 32px center #071018 !important;
+        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 32px center #1b1b1b !important;
         padding: 10px 50px 10px 55px;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li > a {
         display: block;
         padding-right: 65px;
-        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 47px center #071018 !important;
+        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 47px center #1b1b1b !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li > a {
         display: block;
         padding-right: 80px;
-        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 62px center #071018 !important;
+        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 62px center #1b1b1b !important;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li.dropdown > .dropdown-menu.sub-menusublist.first-level > li > a {
         display: block;
         padding-right: 95px;
-        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 77px center #071018 !important;
+        background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 77px center #1b1b1b !important;
     }
     .header-menu, .main-menu.goToTop .navbar.navbar-inverse.category-menu {
-        background: #0e1c29;
+        background: white;
     }
     .navbar-inverse .navbar-toggle .icon-bar {
         background-color: #fff;
@@ -331,7 +332,7 @@
         visibility: visible;
     }
         .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li a {
-            background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 20px center #071018 !important;
+            background: url(../images/submenu-deactive-icon-rtl.png) no-repeat right 20px center #1b1b1b !important;
         }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu {
         background: transparent;
@@ -835,7 +836,8 @@
         background: #f5f5f5;
     }
     .order-summary-content .product-wrapper .product a, .wishlist-content .product-wrapper .product a {
-        color: #f10044;
+        color: 
+            ;
         font-weight: 700;
         display: block;
     }
@@ -903,7 +905,7 @@
     }
     #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button {
         padding: 10px 0px 10px 35px;
-        background: #f10044 url("../images/checkout-order-confrim.png") no-repeat scroll 20px center;
+        background: #C60091 url("../images/checkout-order-confrim.png") no-repeat scroll 20px center;
         float: left;
         width: 150px;
         font-size: 14px;
@@ -1121,7 +1123,7 @@
     }
     #mobile-menu .dropdown-menu > li > a:focus, #mobile-menu .dropdown-menu > li > a:hover {
         background-color: transparent;
-        color: #0e1c29;
+        color: #222222;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li a {
         padding-right: 38px;
@@ -1651,7 +1653,7 @@
         padding-bottom: 15px;
     }
         .footer-middle .title i, .footer-middle .contact-wrapper div i {
-            color: #f10044;
+            color: #C60091;
             float: right;
             font-size: 15px;
             margin-left: 8px;
@@ -1702,17 +1704,17 @@
         padding: 10px 68px;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.active > a {
-        background: #0e1c29;
+        background: #222222;
         color: #fff;
         padding: 20px 22px;
-        border-top: 2px solid #f10044;
-        border-bottom: 2px solid #f10044;
-        color: #f10044;
+        border-top: 2px solid #C60091;
+        border-bottom: 2px solid #C60091;
+        color: #C60091;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li > a:hover {
-        border-top: 2px solid #f10044;
-        border-bottom: 2px solid #f10044;
-        color: #f10044;
+        border-top: 2px solid #C60091;
+        border-bottom: 2px solid #C60091;
+        color: #C60091;
     }
     .header-menu .navbar.navbar-inverse .nav.navbar-nav > li.dropdown .dropdown-menu li.active a {
         color: #333;
@@ -1812,12 +1814,12 @@
     .product-details-page .variant-overview{width:50%;}
     .product-details-page .variant-overview .add-to-cart .product-add-button{margin-top:15px;}
     .product-details-page .variant-overview .add-to-cart{margin-bottom:15px;}
-    #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button{background:#f10044 url("../images/checkout-order-confrim.png") no-repeat scroll 60px center;width:280px;}
+    #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button{background:#C60091 url("../images/checkout-order-confrim.png") no-repeat scroll 60px center;width:280px;}
     #opc-confirm_order #confirm-order-buttons-container .confirm-order-next-step-button:hover{background:#37465d url("../images/checkout-order-confrim.png") no-repeat scroll 60px center;}
     .bottom-box-shadow {height: 30px;}
     .payment-method ul .payment-method1,.payment-method ul .payment-method2,.payment-method ul .payment-method3,.payment-method ul .payment-method4 {width: 53px;}
      .footer-middle .title, .footer-middle .contact-wrapper div {float: right;margin-bottom: 15px;width: 100%;padding-bottom:15px;}
-    .footer-middle .title i,.footer-middle .contact-wrapper div i {color: #f10044;float: right;font-size: 15px;margin-left: 8px;}
+    .footer-middle .title i,.footer-middle .contact-wrapper div i {color: #C60091;float: right;font-size: 15px;margin-left: 8px;}
     .footer-middle .title strong,.footer-middle .contact-wrapper div strong {float: right;font-size:18px;line-height: 16px;width: 85%;text-transform:none;}
     .footer .footer-middle .social-wrapper li a{margin-left:5px;margin-bottom: 5px;}
     .product-filter .group .item{padding-right:0px;}
@@ -1863,7 +1865,7 @@
         width: auto;
     }
     .product-filter .filter-content .title strong {
-        color: #f10044;
+        color: #C60091;
     }
     .product-details-page .add-to-cart .qty-dropdown {
         float: right;
