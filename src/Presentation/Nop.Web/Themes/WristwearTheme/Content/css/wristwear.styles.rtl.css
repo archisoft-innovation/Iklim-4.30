@@ -65,7 +65,7 @@ input[type="file"]:focus, input[type="checkbox"]:focus, input[type="radio"]:focu
 .search-box .btn.search-box-button{font-size:0;background:url("../images/search-icon.png") no-repeat right center;border-radius:0px;width:34px;height:34px;transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-o-transition:all 0.3s ease-in-out 0s;left:-10px;position:absolute;margin-top:0;}
 .header .search-box .btn{border-radius:0;}
 .form-control::-moz-placeholder,.form-control::-webkit-input-placeholder{color:#fff !important;opacity: 1;}
-#small-searchterms.form-control {color: #fff !important;}
+#small-searchterms.form-control {color: #000000 !important;}
 
 /* FLYOUT CART STYLE */
 .flyout-main-wrapper .flyout-cart-wrapper{position:absolute;top:45px;left:0; z-index: 999999;width:300px;box-shadow:0 0 2px rgba(0,0,0,0.25);-webkit-box-shadow:0 0 2px rgba(0,0,0,0.25);-moz-box-shadow:0 0 2px rgba(0,0,0,0.25);background-color: #fff;border:1px solid #ddd;border-radius:0px;opacity:0;visibility:hidden;}
