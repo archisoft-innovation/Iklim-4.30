@@ -193,7 +193,7 @@ namespace Nop.Core
         {
             if (useSsl == null || useSsl ==false)
             {
-                return "http://iklim.ro/";
+                return "https://iklim.ro/";
             }
             else
             {
