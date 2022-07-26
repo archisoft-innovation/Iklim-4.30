@@ -6,6 +6,10 @@
     {
       "SystemName": "Widgets.NivoSlider",
       "Version": "1.45"
+    },
+    {
+      "SystemName": "Payments.CashOnDelivery",
+      "Version": "1.45"
     }
   ],
   "PluginNamesToUninstall": [],
