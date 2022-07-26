@@ -2432,3 +2432,7 @@ td.spec-group-name {
 .ui-state-default:focus{
     outline: none;
 }
+
+.price-range-filter {
+    display:none!important;
+}

@@ -8753,3 +8753,6 @@ label, label + * {
     max-width: 100%;
   }
 }
+.price-range-filter{
+    display:none !important;
+}
