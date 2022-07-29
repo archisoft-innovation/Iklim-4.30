@@ -10,6 +10,22 @@
     {
       "SystemName": "Payments.CashOnDelivery",
       "Version": "1.45"
+    },
+    {
+      "SystemName": "Tax.FixedOrByCountryStateZip",
+      "Version": "1.43"
+    },
+    {
+      "SystemName": "Shipping.FixedByWeightByTotal",
+      "Version": "2.35"
+    },
+    {
+      "SystemName": "Payments.CheckMoneyOrder",
+      "Version": "1.49"
+    },
+    {
+      "SystemName": "Pickup.PickupInStore",
+      "Version": "1.45"
     }
   ],
   "PluginNamesToUninstall": [],

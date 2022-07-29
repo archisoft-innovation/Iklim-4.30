@@ -191,14 +191,14 @@ namespace Nop.Core
         /// <returns>Store location</returns>
         public virtual string GetStoreLocation(bool? useSsl = null)
         {
-            if (useSsl == null || useSsl ==false)
-            {
-                return "https://iklim.ro/";
-            }
-            else
-            {
-                return "https://iklim.ro/";
-            }
+            //if (useSsl == null || useSsl ==false)
+            //{
+            //    return "https://iklim.ro/";
+            //}
+            //else
+            //{
+            //    return "https://iklim.ro/";
+            //}
 
             var storeLocation = string.Empty;
 
