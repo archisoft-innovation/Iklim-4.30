@@ -40,12 +40,12 @@
         }
         @if (Model.IsAuthenticated)
         {
-            <li class="logout"><a href="@Url.RouteUrl("Logout")"><span><i class="fa fa-unlock-alt" aria-hidden="true"></i></span></a></li>
+            <li class="logout"><a href="@Url.RouteUrl("Logout")"><span><i class="fa fa-unlock-alt" aria-hidden="true"></i></span><span style="margin-left: 6px;">Delogare</span></a></li>
         }
         else
         {
             var returnUrl = webHelper.GetRawUrl(Context.Request);
-            <li class="login"><a href="@Url.RouteUrl("Login", new { returnUrl })"><span><i class="fa fa-lock" aria-hidden="true"></i></span></a></li>
+            <li class="login"><a href="@Url.RouteUrl("Login", new { returnUrl })"><span><i class="fa fa-lock" aria-hidden="true"></i></span> <span style="margin-left: 6px;">Autentificare</span> </a></li>
         }
         @if (Model.ShoppingCartEnabled)
         {
