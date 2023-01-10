@@ -141,7 +141,10 @@ namespace Nop.Services.ScheduleTasks
                 //get expiration time
                 var expirationInSeconds = Math.Min(scheduleTask.Seconds, 300) - 1;
                 var expiration = TimeSpan.FromSeconds(expirationInSeconds);
-
+                if (expiration == TimeSpan.Zero)
+                {
+                    expiration = TimeSpan.FromSeconds(15);
+                }
                 //execute task with lock
                 _locker.PerformActionWithLock(scheduleTask.Type, expiration, () => ExecuteTask(scheduleTask));
             }
